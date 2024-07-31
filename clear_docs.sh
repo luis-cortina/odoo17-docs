@@ -16,6 +16,6 @@ if [ ! -d "$dir_path" ]; then
 fi
 
 # Find all PNG files in the directory and its subdirectories and delete them
-find "$dir_path" -type f -name "*.png" -delete
+find "$dir_path" -type f -name "*.zip" -delete
 
 echo "All PNG files have been deleted from $dir_path and its subdirectories."
